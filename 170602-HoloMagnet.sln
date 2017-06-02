@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "170602-HoloMagnet", "170602-HoloMagnet.csproj", "{6CDD8911-93B2-DB14-D5EE-67217A1CE45D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "170602-HoloMagnet.Editor", "170602-HoloMagnet.Editor.csproj", "{67EACD74-9EED-7C2C-DE0B-09B32A601786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CDD8911-93B2-DB14-D5EE-67217A1CE45D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDD8911-93B2-DB14-D5EE-67217A1CE45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDD8911-93B2-DB14-D5EE-67217A1CE45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDD8911-93B2-DB14-D5EE-67217A1CE45D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67EACD74-9EED-7C2C-DE0B-09B32A601786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EACD74-9EED-7C2C-DE0B-09B32A601786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EACD74-9EED-7C2C-DE0B-09B32A601786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EACD74-9EED-7C2C-DE0B-09B32A601786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

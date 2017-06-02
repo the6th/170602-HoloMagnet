@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 84
+  controlID: 9
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 85
+  controlID: 10
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 86
+  controlID: 11
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -324,19 +324,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\uedat\Documents\Drive\project_180331\170525-HoloMagnet_v2_0\170602-HoloMagnet
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6c290000
-    m_LastClickedID: 10604
-    m_ExpandedIDs: 0000000022270000fe2800001629000000ca9a3bffffff7f
+    m_SelectedIDs: 3c290000
+    m_LastClickedID: 10556
+    m_ExpandedIDs: 0000000024270000002900001829000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,7 +364,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000022270000fe28000016290000
+    m_ExpandedIDs: 00000000242700000029000018290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -480,9 +480,9 @@ MonoBehaviour:
     height: 627
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: a8070000
     m_LastClickedID: 0
-    m_ExpandedIDs: b6e6ffff8ae7ffffe8e8fffff6eeffffc8efffff26f1ffff3cf7ffffe0fbffff00000000
+    m_ExpandedIDs: e0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -537,9 +537,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.46505365, y: 0.05189602, z: 0.5507431}
+    m_Target: {x: -0.0881297, y: -0.01957485, z: 2.194689}
     speed: 2
-    m_Value: {x: 0.46505365, y: 0.05189602, z: 0.5507431}
+    m_Value: {x: -0.0881297, y: -0.01957485, z: 2.194689}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -564,11 +564,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.04693423, y: 0.23509316, z: -0.011366079, w: -0.97077256}
     speed: 2
-    m_Value: {x: -0.04693422, y: 0.23509313, z: -0.011366078, w: -0.97077245}
+    m_Value: {x: -0.04693423, y: 0.23509318, z: -0.011366079, w: -0.97077256}
   m_Size:
-    m_Target: 0.08887054
+    m_Target: 0.8111295
     speed: 2
-    m_Value: 0.08887054
+    m_Value: 0.8111295
   m_Ortho:
     m_Target: 0
     speed: 2
