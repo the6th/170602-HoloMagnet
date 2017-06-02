@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/170602-MakingCompass.unity
+- path: Assets/Scenes/170602-MakingCompass.unity
   isLoaded: 1
   isActive: 1
