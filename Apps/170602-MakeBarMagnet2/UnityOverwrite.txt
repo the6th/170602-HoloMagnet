@@ -5,9 +5,9 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-170602-HoloMagnet.sln: D9BF01A1D57C75B70B6CE98E1F748959
-170602-HoloMagnet\170602-HoloMagnet.csproj: 0C9231E885EF4A9F882AFAB1C2F7C638
-170602-HoloMagnet\170602-HoloMagnet.csproj.user: BEFB8AC4886C4CFDD3C68445D6F19B04
+170602-HoloMagnet.sln: modified
+170602-HoloMagnet\170602-HoloMagnet.csproj: 51C132D62CBF73F719E7055DD63B5FA0
+170602-HoloMagnet\170602-HoloMagnet.csproj.user: modified
 170602-HoloMagnet\App.cs: B5079D128B266501B2FDE090FF149AA3
 170602-HoloMagnet\Package.appxmanifest: 67FA0C6AFC6557393B90C557634D6105
 170602-HoloMagnet\project.json: 1D02BC64BAC0D041019673A1C4C51737

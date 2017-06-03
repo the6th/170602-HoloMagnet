@@ -28,12 +28,12 @@ public class Gizmo : MonoBehaviour
         // 自身からN極への変位ベクトル
         Vector3 vectorSelfToNorthPole = northPole.transform.transform.position - transform.transform.position;
         // N極によるクーロン力
-        Vector3 forceByNorthPole = vectorSelfToNorthPole.normalized / vectorSelfToNorthPole.sqrMagnitude;
+        Vector3 forceByNorthPole = -vectorSelfToNorthPole.normalized / vectorSelfToNorthPole.sqrMagnitude;
 
         // 自身からS極への変位ベクトル
         Vector3 vectorSelfToSouthPole = southPole.transform.transform.position - transform.transform.position;
         // S極によるクーロン力
-        Vector3 forceBySouthPole = -vectorSelfToSouthPole.normalized / vectorSelfToSouthPole.sqrMagnitude;
+        Vector3 forceBySouthPole = vectorSelfToSouthPole.normalized / vectorSelfToSouthPole.sqrMagnitude;
         
         // クーロン力の合力
         Vector3 forceResultant = forceByNorthPole + forceBySouthPole;
