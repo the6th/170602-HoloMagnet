@@ -27,8 +27,20 @@ public class Gizmo : MonoBehaviour
     {
         //transform.Rotate(new Vector3(0, 0, 5));
         //transform.LookAt(northPole.transform);
-        //Vector3 selfToNorthPole = northPole.transform.transform.position - transform.transform.position; 
-        //transform.LookAt(selfToNorthPole);
-        transform.LookAt(northPole.transform.transform.position);
+
+        // 自身からN極への変位ベクトル
+        Vector3 vectorSelfToNorthPole = northPole.transform.transform.position - transform.transform.position;
+        // N極によるクーロン力
+        Vector3 forceByNorthPole = vectorSelfToNorthPole.normalized / vectorSelfToNorthPole.sqrMagnitude;
+        // 自身からS極への変位ベクトル
+        Vector3 vectorSelfToSouthPole = southPole.transform.transform.position - transform.transform.position;
+        // S極によるクーロン力
+        Vector3 forceBySouthPole = -vectorSelfToSouthPole.normalized / vectorSelfToSouthPole.sqrMagnitude;
+        // クーロン力の合力
+        Vector3 forceResultant = forceByNorthPole + forceBySouthPole;
+        // コンパスの向きを設定する
+        transform.LookAt(transform.transform.position + forceResultant);
+        // コンパスの透明度を設定する
+        // まだ
     }
 }

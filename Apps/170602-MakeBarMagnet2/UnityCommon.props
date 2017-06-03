@@ -1,0 +1,9 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityWSASolutionName>170602-HoloMagnet</UnityWSASolutionName>
+        <UnityWSASolutionDir>C:\Users\uedat\Documents\Drive\project_180331\170525-HoloMagnet_v2_0\170602-HoloMagnet\Apps\170602-MakeBarMagnet2\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\Users\uedat\Documents\Drive\project_180331\170525-HoloMagnet_v2_0\170602-HoloMagnet\</UnityProjectDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity5_6_1\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+    </PropertyGroup>
+</Project>
