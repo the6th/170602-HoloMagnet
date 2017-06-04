@@ -214,12 +214,12 @@
 
   <ItemGroup>
     <ProjectReference Include="C:\Users\uedat\Documents\Drive\project_180331\170525-HoloMagnet_v2_0\170602-HoloMagnet\Apps\170602-MakeBarMagnet2\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{7cae41f9-073c-435c-a2cf-923862078061}</Project>
+      <Project>{4c3e5315-2693-4319-ae1d-43e989e713f0}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="C:\Users\uedat\Documents\Drive\project_180331\170525-HoloMagnet_v2_0\170602-HoloMagnet\Apps\170602-MakeBarMagnet2\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{8ffaeb5c-bd65-4255-969d-f866d874e728}</Project>
+      <Project>{1fe77b01-fced-4153-92e1-63b066086a62}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
       <Private>False</Private>
     </ProjectReference>

@@ -8,7 +8,7 @@ public class IncreaseCompass : MonoBehaviour {
 	void Start () {
         var commpass = GameObject.Find("Compass 1");
         // 5 x 5 x 5のコンパスを配置する
-        for (int d = 0; d < 5; d++)
+        for (int d = 0; d < 1; d++)
         {
             for (int h = 0; h < 10; h++)
             {
