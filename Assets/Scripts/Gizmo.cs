@@ -40,5 +40,20 @@ public class Gizmo : MonoBehaviour
         // コンパスの向きを設定する
         transform.LookAt(transform.transform.position + forceResultant);
         // Todo:コンパスの透明度を設定する
+
+        // 磁石のモデルを取得する
+        var magnetRed  = transform.GetChild(0);
+        var magnetBlue = transform.GetChild(1);
+
+        // 合力の大きさ
+        //Debug.Log((Mathf.Pow(forceResultant.sqrMagnitude, 0.5f) - 30) / 80);
+        float a = (Mathf.Pow(forceResultant.sqrMagnitude, 0.5f) - 30) / 80;
+
+        // シェーダーを取得する
+        MeshRenderer meshrenderRed  = magnetRed.GetComponent<MeshRenderer>();
+        MeshRenderer meshrenderBlue = magnetBlue.GetComponent<MeshRenderer>();
+        // 透明度を変える
+        meshrenderRed.material.color  = new Color(1, 0, 0, a);
+        meshrenderBlue.material.color = new Color(0, 0, 1, a);
     }
 }
