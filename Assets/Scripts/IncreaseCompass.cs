@@ -10,12 +10,12 @@ public class IncreaseCompass : MonoBehaviour {
         // 5 x 5 x 5のコンパスを配置する
         for (int d = 0; d < 5; d++)
         {
-            for (int h = 0; h < 5; h++)
+            for (int h = 0; h < 10; h++)
             {
-                for (int w = 0; w < 5; w++)
+                for (int w = 0; w < 10; w++)
                 {
                     Instantiate(commpass, new Vector3(
-                        0.2f * w - 0.4f, 0.2f * h - 0.4f, 0.2f * d + 1.6f), Quaternion.identity);
+                        0.02f * w - 0.10f, 0.02f * h - 0.10f, 0.02f * d + 2.0f), Quaternion.identity);
                 }
             }
         }
