@@ -16,6 +16,7 @@ public class Gizmo : MonoBehaviour
 
     GameObject northPole;
     GameObject southPole;
+    int _FrameCount = 0;
 
     void Start()
     {
@@ -25,6 +26,10 @@ public class Gizmo : MonoBehaviour
 
     private void Update()
     {
+        _FrameCount++;
+        if (_FrameCount < 6) return;
+        _FrameCount = 0;
+
         // 自身からN極への変位ベクトル
         Vector3 vectorSelfToNorthPole = northPole.transform.transform.position - transform.transform.position;
         // N極によるクーロン力
