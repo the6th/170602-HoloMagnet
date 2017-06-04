@@ -55,8 +55,8 @@ public class Gizmo : MonoBehaviour
         MeshRenderer meshrenderRed  = magnetRed.GetComponent<MeshRenderer>();
         MeshRenderer meshrenderBlue = magnetBlue.GetComponent<MeshRenderer>();
         // 透明度を変える
-        meshrenderRed.material.color  = new Color(1, 0, 0, a);
-        meshrenderBlue.material.color = new Color(0, 0, 1, a);
+        meshrenderRed.material.color  = new Color(a, 0, 0);
+        meshrenderBlue.material.color = new Color(0, 0, a);
         
     }
 }
