@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\uedat\Documents\Drive\project_180331\170525-HoloMagnet_v2_0\170602-HoloMagnet\Apps\170602-MakeBarMagnet2\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{1fe77b01-fced-4153-92e1-63b066086a62}</Project>
+      <Project>{394b6179-895d-40d4-a39f-ca2e74a13645}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <Reference Include="UnityEngine">

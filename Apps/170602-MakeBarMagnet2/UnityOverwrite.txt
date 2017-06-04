@@ -6,7 +6,7 @@
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
 170602-HoloMagnet.sln: modified
-170602-HoloMagnet\170602-HoloMagnet.csproj: 736B331D7FEC42568D29D1DE6E1AA607
+170602-HoloMagnet\170602-HoloMagnet.csproj: modified
 170602-HoloMagnet\170602-HoloMagnet.csproj.user: modified
 170602-HoloMagnet\App.cs: B5079D128B266501B2FDE090FF149AA3
 170602-HoloMagnet\Package.appxmanifest: 67FA0C6AFC6557393B90C557634D6105
