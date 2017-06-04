@@ -25,6 +25,7 @@ public class Gizmo : MonoBehaviour
 
     private void Update()
     {
+        /***** パフォーマンスチェックのためにコメントアウト。ここから *****
         // 自身からN極への変位ベクトル
         Vector3 vectorSelfToNorthPole = northPole.transform.transform.position - transform.transform.position;
         // N極によるクーロン力
@@ -58,5 +59,6 @@ public class Gizmo : MonoBehaviour
         meshrenderRed.material.color  = new Color(a, 0, 0);
         meshrenderBlue.material.color = new Color(0, 0, a);
         
+    ***** パフォーマンスチェックここまで *****/
     }
 }

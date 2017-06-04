@@ -195,6 +195,36 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 48
       objectReference: {fileID: 0}
+    - target: {fileID: 23246089333716116, guid: e51db758f35a350458d53ead3416a585,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23246089333716116, guid: e51db758f35a350458d53ead3416a585,
+        type: 2}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23246089333716116, guid: e51db758f35a350458d53ead3416a585,
+        type: 2}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23456182896277670, guid: e51db758f35a350458d53ead3416a585,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23456182896277670, guid: e51db758f35a350458d53ead3416a585,
+        type: 2}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23456182896277670, guid: e51db758f35a350458d53ead3416a585,
+        type: 2}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e51db758f35a350458d53ead3416a585, type: 2}
   m_IsPrefabParent: 0
