@@ -18,17 +18,33 @@ public class Gizmo : MonoBehaviour
     GameObject southPole;
     int _FrameCount = 0;
 
-    void Start()
+    Transform magnetRed;
+    Transform magnetBlue;
+    MeshRenderer meshrenderRed;
+    MeshRenderer meshrenderBlue;
+    void Start()    
     {
          northPole = GameObject.Find("North Pole");
          southPole = GameObject.Find("South Pole");
+
+        // コンパスの透明度を設定する
+        // 磁石のモデルを取得する
+         magnetRed = transform.GetChild(0);
+         magnetBlue = transform.GetChild(1);
+
+        // シェーダーを取得する
+        meshrenderRed = magnetRed.GetComponent<MeshRenderer>();
+        meshrenderBlue = magnetBlue.GetComponent<MeshRenderer>();
+
+         meshrenderRed.sharedMaterial.color  = new Color(1, 0, 0);
+         meshrenderBlue.sharedMaterial.color = new Color(0, 0, 1);
     }
 
     private void Update()
     {
-        _FrameCount++;
-        if (_FrameCount < 6) return;
-        _FrameCount = 0;
+       // _FrameCount++;
+       // if (_FrameCount < 6) return;
+       // _FrameCount = 0;
 
         // 自身からN極への変位ベクトル
         Vector3 vectorSelfToNorthPole = northPole.transform.transform.position - transform.transform.position;
@@ -46,22 +62,16 @@ public class Gizmo : MonoBehaviour
         transform.LookAt(transform.transform.position + forceResultant);
 
         
-        // コンパスの透明度を設定する
-        // 磁石のモデルを取得する
-        var magnetRed  = transform.GetChild(0);
-        var magnetBlue = transform.GetChild(1);
+
 
         // 合力の大きさの2乗
         //Debug.Log(forceResultant.sqrMagnitude);
         //Debug.Log((Mathf.Pow(forceResultant.sqrMagnitude, 0.01f) - 2.0f) / 6.0f);
-        float a = forceResultant.sqrMagnitude / 200000;
+        float a = forceResultant.sqrMagnitude / 50000;
 
-        // シェーダーを取得する
-        MeshRenderer meshrenderRed  = magnetRed.GetComponent<MeshRenderer>();
-        MeshRenderer meshrenderBlue = magnetBlue.GetComponent<MeshRenderer>();
         // 透明度を変える
-        meshrenderRed.material.color  = new Color(a, 0, 0);
-        meshrenderBlue.material.color = new Color(0, 0, a);
+       // meshrenderRed.material.color  = new Color(a, 0, 0);
+       // meshrenderBlue.material.color = new Color(0, 0, a);
         
     }
 }
